@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_zakat_finish"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/lytScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadeScrollbars="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imgLogoAbout"
+                android:layout_width="250dip"
+                android:layout_height="180dip"
+                android:layout_gravity="center"
+                android:background="@drawable/baznas_logo"
+                android:contentDescription="@+id/imgLogoAbout"
+                android:padding="30dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            <RelativeLayout
+                android:id="@+id/menu1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingTop="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="Harga Beras"
+                    android:textAllCaps="true"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:enabled="false"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:layout_marginTop="-12dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#646464"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/menu2"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:singleLine="true"
+                    android:layout_gravity="start"
+                    android:textColor="@android:color/white"
+                    android:text="Harga Emas"
+                    android:textAllCaps="true"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:enabled="false"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:layout_marginTop="-12dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#646464"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/menu3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:singleLine="true"
+                    android:layout_gravity="start"
+                    android:textColor="@android:color/white"
+                    android:text="Layanan Mustahik"
+                    android:textAllCaps="true"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:enabled="false"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:layout_marginTop="-12dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#646464"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/menu4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:singleLine="true"
+                    android:layout_gravity="start"
+                    android:textColor="@android:color/white"
+                    android:text="Konsultasi Zakat"
+                    android:textAllCaps="true"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:enabled="false"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:layout_marginTop="-12dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#646464"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/menu5"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:singleLine="true"
+                    android:layout_gravity="start"
+                    android:textColor="@android:color/white"
+                    android:text="Keluar"
+                    android:textAllCaps="true"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:enabled="false"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
